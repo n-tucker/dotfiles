@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Netskope Certs
+export NETSKOPE_CERT_PATH="/Library/Application Support/Netskope/STAgent/data/nscacert.pem"
+export NETSKOPE_CERT="$(cat "$NETSKOPE_CERT_PATH")"
+
+export GRANTED_ENABLE_AUTO_REASSUME=true
